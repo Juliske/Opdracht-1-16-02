@@ -1,0 +1,145 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Opdracht 1</title>
+		<meta name="description" content="Opdracht 1 en 2">
+		<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+		<meta name="author" content="Juliske Hummel">
+		<meta charset="UTF-8">
+	</head>
+
+	<body>
+		<header>
+			<nav>
+				<ul>
+            		<li><a href="index.html"> Home </a> </li>
+                	<li><a href="studieprogramma.html"> Studie programma </a> </li>
+                	<li><a href="beroepen.html"> Beroepen </a> </li>
+                	<li><a href="aanmelden.html"> Aanmelden </a> </li>
+            	</ul>
+			</nav>
+		</header>
+
+		<main> 
+			<article>
+				<h1>Aanmelden</h1>
+				<p>Bent u geinteresseerd in samenwerken met CMD Amsterdam? Dat kan!</p>
+				<p>Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook lopen de studenten stage, in het tweede en afstudeerjaar.</p>
+				<p>CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad Amsterdam.
+				Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen. Wij nemen zo nodig contact met u op nadat het formulier is verstuurd.</p>
+				<p>Voor vragen of opmerkingen kunt u <a href="contact@contact.nl"> contact</a> met ons opnemen.</p>
+			</article>	
+
+			<form>
+				<fieldset>
+					<legend>Contactgegevens</legend>
+
+					<label for="naam"> Naam </label>
+					<input type="text" id="naam"/> <br>
+
+					<label for="bedrijf"> Bedrijf </label>
+					<input type="text" id="bedrijf"/> <br>
+
+					<label for="adres"> Adres </label>
+					<input type="text" id="adres"/> <br>
+
+					<label for="postcode"> Postcode </label>
+					<input type="text" id="postcode" pattern="[[1-9][0-9]{3}\s?[a-zA-Z]{2}"/> <br>
+
+					<label for="plaats"> Plaats </label>
+					<input type="text" id="plaats"/> <br>
+
+					<label for="telefoonnummer"> Telefoonnummer </label>
+					<input type="text" id="telefoonnummer" pattern="[\+]\d{2}[\(]\d{2}[\)]\d{4}[\-]\d{4}"/> <br>
+
+					<label for="email"> E-mail </label>
+					<input type="text" id="email"/> <br>
+
+				</fieldset>
+			</form>		
+
+			<form>
+				<fieldset>
+					<legend>Ik wil mij aanmelden</legend>
+
+					<input type="checkbox" name="project" value="Project">Voor een project<br>
+					<input type="checkbox" name="stage" value="Stage">Als stagebedrijf<br>
+				</fieldset>	
+			</form>
+
+			<table border="1">
+				<tr>
+  					<td style="color:grey">Project</td>
+  					<td style="color:grey">Stage</td>		
+  				</tr>
+				<tr>
+					<td>
+						<ol>
+							<li>Titel</li>
+							<li>Opdrachtomschrijving</li>
+							<li>Doelgroepomschrijving</li>
+							<li>Doelstelling / intentie van het project</li>
+							<li>Looptijd</li>
+							<li>Deadline</li>
+						</ol>
+					</td>
+					<td>Geschikt voor:
+						<ol>
+							<li>tweedejaars studenten</li>
+							<li>afstudeer studenten</li>
+							<li>onbekend</li>
+						</ol>
+					</td>	
+				</tr>
+				<tr>
+					<td>Geschikt voor:
+						<ol>
+							<li>eerstejaars studenten</li>
+							<li>tweedejaars studenten</li>
+							<li>derdejaars studenten</li>
+							<li>afstudeer studenten</li>
+							<li>onbekend</li>
+						</ol>
+					</td>	
+					<td>
+						<ol>
+							<li>Hoe lang is de stage? <br>
+								- 10 weken <br>
+								- 20 weken</li>
+							<li>Begin datum</li>
+						</ol>
+					</td>						
+				</tr>
+				<tr>
+					<td> </td>
+					<td>Beschrijving werkzaamheden:
+						<ol>
+							<li>Beschrijving stagewerkzaamheden</li>
+						</ol>	
+					</td>	
+				</tr>	
+				<tr>
+  					<td>Project</td>
+  					<td>Stage</td>		
+  				</tr>
+				<tr>
+					<td> </td>
+					<td>Beschrijving stagebedrijf
+						<ol>
+							<li>Bedrijfsnaam</li>
+							<li>Adres</li>
+							<li>Postcode</li>
+							<li>Plaats</li>
+							<li>Sector</li>
+							<li>Core Business</li>
+						</ol>
+					</td>	
+				</tr>
+				<tr>
+					<td>Opmerking</td>
+					<td>Opmerking</td>
+				</tr>	
+			</table>
+		</main>	
+	</body>
+</html>
